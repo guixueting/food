@@ -1,0 +1,37 @@
+{
+  "id": "2259424",
+  "name": "小程序",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "5184171",
+      "name": "小笼包",
+      "font_class": "xiaolongbao",
+      "unicode": "e697",
+      "unicode_decimal": 59031
+    },
+    {
+      "icon_id": "5192745",
+      "name": "微波炉",
+      "font_class": "weibolu",
+      "unicode": "e636",
+      "unicode_decimal": 58934
+    },
+    {
+      "icon_id": "5733272",
+      "name": "锅贴",
+      "font_class": "guotiex",
+      "unicode": "e62a",
+      "unicode_decimal": 58922
+    },
+    {
+      "icon_id": "12924311",
+      "name": "碗",
+      "font_class": "wan",
+      "unicode": "e621",
+      "unicode_decimal": 58913
+    }
+  ]
+}

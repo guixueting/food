@@ -1,0 +1,148 @@
+{
+	"pages": [ 
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "美食"
+			}
+		}, {
+			"path": "pages/theme/theme",
+			"style": {
+				"navigationBarTitleText": "主题"
+			}
+		}, {
+			"path": "pages/video/video",
+			"style": {
+				"navigationBarTitleText": "视频",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		}
+        ,{
+            "path" : "pages/zaoju/zaoju",
+            "style" : {
+				"navigationBarTitleText": "菜谱"
+			}
+        },
+		{
+            "path" : "pages/square/square",
+            "style" : {
+				"navigationBarTitleText": "来到广场",
+				"enablePullDownRefresh": true
+			}
+        }
+        ,{
+            "path" : "pages/fooddetail/fooddetail",
+            "style" : {
+				"navigationBarTitleText": "菜谱详情",
+				"enablePullDownRefresh": true
+			}
+        }
+        ,{
+            "path" : "pages/cart/cart",
+            "style" : {
+				"navigationBarTitleText": "菜篮子"
+			}
+        }
+        ,{
+            "path" : "pages/login/login",
+            "style" : {
+				"navigationBarTitleText": "登录中心"
+			}
+        }
+        ,{
+            "path" : "pages/themeDetails/themeDetails",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/search/search",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/collect/collect",
+            "style" : {
+				"navigationBarTitleText": "我的收藏"
+			}
+        }
+        ,{
+            "path" : "pages/lottery/lottery",
+            "style" : {
+				"navigationBarTitleText": "随机选菜"
+			}
+        }
+        ,{
+            "path" : "pages/lotteryDetail/lotteryDetail",
+            "style" : {
+				"navigationBarTitleText": "随机选菜"
+			}
+        }
+        ,{
+            "path" : "pages/videoDetail/videoDetail",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/postBarsDetail/postBarsDetail",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/votedetail/votedetail",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/share/share",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/register/register",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/user/user",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "美食",
+		"navigationBarBackgroundColor": "#E9A06F",
+		"backgroundColor": "#F8F8F8",
+		"onReachBottomDistance":20
+	},
+	"tabBar": {
+		"list": [{
+				"text": "菜谱",
+				"pagePath": "pages/index/index",
+				"iconPath":"static/tabs/菜谱.png",
+				"selectedIconPath":"static/tabs/菜谱_active.png"
+			},
+			{
+				"text": "主题",
+				"pagePath": "pages/theme/theme",
+				"iconPath":"static/tabs/主题.png",
+				"selectedIconPath":"static/tabs/主题_active.png"
+			},
+			{
+				"text": "视频",
+				"pagePath": "pages/video/video",
+				"iconPath":"static/tabs/视频.png",
+				"selectedIconPath":"static/tabs/视频_active.png"
+			},
+			{
+				"text": "广场",
+				"pagePath": "pages/square/square",
+				"iconPath":"static/tabs/会话.png",
+				"selectedIconPath":"static/tabs/会话_active.png"
+			},
+			{
+				"text": "我的",
+				"pagePath": "pages/my/my",
+				"iconPath":"static/tabs/我的.png",
+				"selectedIconPath":"static/tabs/我的_active.png"
+			}
+		]
+	}
+}
