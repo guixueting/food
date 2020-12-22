@@ -6,7 +6,7 @@
 				<!-- #ifdef H5 -->
 				<m-input class="nameform" focus clearable type="text" v-model="account" placeholder="请输入账号" />
 				<!-- #endif -->
-				<!-- #ifdef MP-ALIPAY | MP-WEIXIN -->
+				<!-- #ifdef MP-ALIPAY|MP-WEIXIN -->
 				<input class="nameform" focus clearable type="text" v-model="account" placeholder="请输入账号" />
 				<!-- #endif -->
 			</view>
@@ -14,7 +14,7 @@
 				<!-- #ifdef H5 -->
 				<m-input class="pawform" displayable type="password" v-model="password" placeholder="请输入密码" />
 				<!-- #endif -->
-				<!-- #ifdef MP-ALIPAY | MP-WEIXIN -->
+				<!-- #ifdef MP-ALIPAY|MP-WEIXIN -->
 				<input class="pawform" displayable type="password" v-model="password" placeholder="请输入密码" />
 				<!-- #endif -->
 			</view>
@@ -22,7 +22,7 @@
 				<!-- #ifdef H5 -->
 				<m-input class="pawformup" type="text" clearable v-model="email" placeholder="请输入邮箱"></m-input>
 				<!-- #endif -->
-				<!-- #ifdef MP-ALIPAY | MP-WEIXIN -->
+				<!-- #ifdef MP-ALIPAY|MP-WEIXIN -->
 				<input class="pawformup" type="text" clearable v-model="email" placeholder="请输入邮箱"></m-input>
 				<!-- #endif -->
 			</view>
